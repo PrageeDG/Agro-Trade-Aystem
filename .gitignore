@@ -10,6 +10,9 @@ yarn.lock
 .env.test.local
 .env.production.local
 BACKEND/.env
+# Allow .env.example files
+!.env.example
+!**/.env.example
 
 # Build outputs
 build/

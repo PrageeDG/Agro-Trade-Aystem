@@ -85,8 +85,16 @@ npm install
 
 ### 3. Configure Environment Variables
 
-Create a `.env` file in the `BACKEND` directory:
+Copy the example environment file and update it with your configuration:
 
+```bash
+cd BACKEND
+cp .env.example .env
+```
+
+Then edit the `.env` file with your MongoDB connection string:
+
+**For Local MongoDB:**
 ```env
 PORT=8081
 MONGODB_URL=mongodb://127.0.0.1:27017/Agriculture
@@ -98,7 +106,7 @@ PORT=8081
 MONGODB_URL=mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/Agriculture?retryWrites=true&w=majority
 ```
 
-> **Note**: Get your MongoDB connection string from MongoDB Compass or MongoDB Atlas dashboard.
+> **Note**: Get your MongoDB connection string from MongoDB Compass or MongoDB Atlas dashboard. Never commit the `.env` file to version control.
 
 ### 4. Frontend Setup
 
