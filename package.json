@@ -20,7 +20,7 @@
     "express",
     "mongodb"
   ],
-  "author": "Nimash Kithmal",
+  "author": "Prageeth Gunarathne",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^9.1.2"

@@ -7,7 +7,7 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "author": "Nimash kithmal",
+  "author": "Prageeth Gunarathne",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
