@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "agricultural-trading-backend",
   "version": "1.0.0",
-  "description": "Gem Cutting Managemt System",
+  "description": "Backend API for Agricultural Trading System (FairTrade)",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
